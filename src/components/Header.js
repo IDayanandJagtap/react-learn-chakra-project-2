@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <div>
-            <Button colorScheme={'purple'} onClick={onOpen} pos={"fixed"} top={'4'} left={'4'} w={'10'} h={"10"} p={'0'} borderRadius={'full'}>
+            <Button colorScheme={'purple'} onClick={onOpen} pos={"fixed"} top={'4'} left={'4'} w={'10'} h={"10"} p={'0'} borderRadius={'full'} zIndex={'overlay'}>
                 <BiMenuAltLeft size={"20"}/>
             </Button>
 

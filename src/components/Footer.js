@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <Box bgColor={'blackAlpha.900'} w={'full'} h={['fit-content', '30vh']} color={'whiteAlpha.800'}> 
             <Stack direction={['column', 'row']} justifyContent={'center'} alignItems={'center'} h={'full'} rowGap={['12', '3']} p={['6', '0']}>
-                <VStack w={'full'}  p={'2'} rowGap={'3'}>
+                <VStack w={'full'}  p={'2'} rowGap={'3'} >
                     <Heading  textTransform={'uppercase'} textAlign={['center', 'left']}>Subscribe to us </Heading>
                     <HStack  w={'80%'}>
                         <Input placeholder={'Enter email here...'} outline={'none'}  focusBorderColor="none" border={'none'} size={'30'} p={'2'} borderBottom={'2px solid white'}/>

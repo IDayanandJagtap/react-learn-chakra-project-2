@@ -8,6 +8,7 @@ const ColorModeSwitcher = props => {
 
   return (
     <IconButton
+      zIndex={'overlay'}
       fontSize="xl"
       variant="ghost"
       color="current"
