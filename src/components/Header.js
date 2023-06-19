@@ -18,7 +18,7 @@ const Header = () => {
                     <DrawerCloseButton />
                     <DrawerHeader> VIDEO HUB</DrawerHeader>
                     <DrawerBody>
-                        <VStack>
+                        <VStack alignItems={'stretch'} w={'full'}>
 
                         <Button colorScheme={"purple"} variant={'ghost'} onClick={onClose}>
                             <Link to={'/'}>Home</Link>
